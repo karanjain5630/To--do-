@@ -1,0 +1,8 @@
+<div class="container">
+    <main>
+    <div class="row" *ngFor="let task of tasks; let i=index">
+      <p class="tittle">{{task.title}} <i (click)="tasks.splice(i,1)"class="fa fa-trash-o dus" ></i></p>
+    </div>
+  </main>
+  </div>
+  

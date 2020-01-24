@@ -1,0 +1,33 @@
+main{
+    width:60%;
+    margin:auto;
+  }
+  .tittle
+  {
+    font-weight:bold;
+    margin:18px;
+  
+    color:#921212e0;
+    padding-left:10px;
+    padding-top:5px;
+  }
+  p{
+    border:2px solid grey;
+    height:38px;
+    width:75%
+  }
+  .dus
+  {
+    float:right;
+    margin-top:-5px;
+    background-color:#921212e0;
+    color:white;
+    font-size:25px;
+    height:36px;
+    width:40px;
+    text-align:center;
+    padding-top:8px;
+  
+  
+  }
+  

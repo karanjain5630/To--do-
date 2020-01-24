@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo';
+  StoredTask=[];
+  AddedTask(task)
+  {
+    console.log(task);
+    this.StoredTask.push(task);
+  }
 }
